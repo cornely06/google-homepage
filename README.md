@@ -1,5 +1,5 @@
 The Odin Project
 Web Development 101
-Project: HTML/CSS
+Project HTML/CSS
 
-The goal is to deconstruct and recreate an existing web page.
+The goal of this project is to deconstruct and recreate the google homepage.
