@@ -5,3 +5,12 @@
     display: block;
     margin: 0 auto;
 }
+#search {
+   text-align: center;
+}
+[type="button"] {
+    font-size: 0.80em;
+    font-family: 'Roboto', sans-serif;
+    margin: 25px 3px;
+    padding: 8px;
+}
