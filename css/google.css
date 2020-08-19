@@ -9,7 +9,7 @@
     text-align: center;
     margin-top: 30px;
 }
-[type="search"] {
+#searchBar {
     width: 480px;
     padding: 13px 13px 13px 45px;
     background-color: white;
@@ -39,13 +39,22 @@
 #input-container img {
     display: block;
     position: absolute;
-    height: 18px;
+}
+#input-container:hover > #searchBar {
+    box-shadow: 0px 1px 3px 1px rgb(223 225 229);
 }
 #mag {
     bottom: 13px;
-    left: 15px;
+    left: 17px;
+    height: 18px;
+    opacity: 50%;
 }
 #mic {
-    right: 20px;
-    bottom: 13px;
+    right: 15px;
+    bottom: 3px;
+    padding: 10px;
+    height: 20px;
+}
+#mic:hover {
+    cursor: pointer;
 }
