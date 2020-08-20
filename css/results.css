@@ -1,0 +1,8 @@
+#logo img {
+    width: 90px;
+}
+#logo {
+    position: absolute;
+    left: 22px;
+    top: 28px;
+}
