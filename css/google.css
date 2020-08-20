@@ -1,3 +1,48 @@
+body {
+    min-width: 980px;
+    font-family: 'Roboto', sans-serif;
+}
+#navBar {
+    position: fixed;
+    top: 0px;
+    display: grid;
+    grid-template-columns: auto auto 1fr auto auto auto auto;
+    width: 100%;
+    min-width: 980px;
+    height: 75px;
+    align-items: center;
+}
+.navLinks img {
+    display: block;
+    height: 1em;
+    opacity: 60%;
+    margin: 0 8px;
+    padding: 7px;
+}
+.navLinks img:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+.navLinks a {
+    text-decoration: none;
+    color: black;
+    margin: 7px;
+    font-size: 0.8em;
+    opacity: 80%;
+}
+.navLinks a:hover {
+    text-decoration: underline;
+}
+#about {
+    margin-left: 10px;
+}
+#signIn {
+    margin-right: 10px;
+}
+#signIn a:hover {
+    text-decoration: none;
+    cursor: default;
+}
 #logo {
     margin-top: 150px;
 }
@@ -18,7 +63,6 @@
 }
 [type="submit"] {
     font-size: 0.90em;
-    font-family: 'Roboto', sans-serif;
     color: rgb(127 130 134);
     margin: 25px 3.2px;
     padding: 8px 16px;
