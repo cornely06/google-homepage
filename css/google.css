@@ -2,6 +2,9 @@ body {
     min-width: 980px;
     font-family: 'Roboto', sans-serif;
 }
+a {
+    text-decoration: none;
+}
 #navBar {
     position: fixed;
     top: 0px;
@@ -9,7 +12,7 @@ body {
     grid-template-columns: auto auto 1fr auto auto auto auto;
     width: 100%;
     min-width: 980px;
-    height: 75px;
+    height: 60px;
     align-items: center;
 }
 .navLinks img {
@@ -24,10 +27,9 @@ body {
     cursor: pointer;
 }
 .navLinks a {
-    text-decoration: none;
-    color: black;
     margin: 7px;
     font-size: 0.8em;
+    color: black;
     opacity: 80%;
 }
 .navLinks a:hover {
@@ -107,4 +109,23 @@ body {
 }
 #mic:hover {
     cursor: pointer;
+}
+footer {
+    height: 40px;
+    background-color: #f3f3f3;
+    position: fixed;
+    bottom: 0px;
+    min-width: 980px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto auto 1fr auto auto auto;
+    align-items: center;
+}
+footer a {
+    color: black;
+    opacity: 50%;
+    font-size: 0.9em;
+}
+.footerLinks:hover > a {
+    text-decoration: underline;
 }
