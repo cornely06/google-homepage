@@ -1,3 +1,6 @@
+body {
+    min-width: 800px;
+}
 #logo img {
     width: 90px;
 }
@@ -5,4 +8,25 @@
     position: absolute;
     left: 22px;
     top: 28px;
+}
+#search {
+    position: absolute;
+    left: 160px;
+    top: 20px;
+}
+#searchBar {
+    width: 700px;
+    padding: 13px 13px 13px 45px;
+    border-radius: 30px;
+    border: 1px rgb(223 225 229) solid;
+    background-color: white;
+}
+#mag {
+    position: absolute;
+    right: 18px;
+    top: 12px;
+    height: 23px;
+}
+#input-container:hover > #searchBar {
+    box-shadow: 0px 1px 3px 1px rgb(223 225 229);
 }
