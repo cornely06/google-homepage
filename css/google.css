@@ -39,7 +39,7 @@ a {
     margin-left: 10px;
 }
 #signIn a {
-    margin-right: 10px;
+    margin-right: 30px;
     background-color: rgb(67, 133, 243);
     color: white;
     padding: 8px 12px;
@@ -124,8 +124,15 @@ footer {
 footer a {
     color: black;
     opacity: 50%;
-    font-size: 0.9em;
+    font-size: 0.85em;
+    padding: 12px 15px;
 }
 .footerLinks:hover > a {
     text-decoration: underline;
+}
+#advert {
+    margin-left: 14px;
+}
+#settings {
+    margin-right: 14px;
 }
