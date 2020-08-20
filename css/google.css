@@ -36,8 +36,14 @@ body {
 #about {
     margin-left: 10px;
 }
-#signIn {
+#signIn a {
     margin-right: 10px;
+    background-color: rgb(67, 133, 243);
+    color: white;
+    padding: 8px 12px;
+    font-weight: bold;
+    opacity: 100%;
+    font-size: 0.85em;
 }
 #signIn a:hover {
     text-decoration: none;
