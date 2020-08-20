@@ -1,5 +1,5 @@
 body {
-    min-width: 800px;
+    min-width: 1275px;
 }
 #logo img {
     width: 90px;
@@ -29,4 +29,31 @@ body {
 }
 #input-container:hover > #searchBar {
     box-shadow: 0px 1px 3px 1px rgb(223 225 229);
+}
+#icons {
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    width: 100%;
+    min-width: 1275px;
+}
+#icons img {
+    display: block;
+    height: 1em;
+    opacity: 60%;
+    margin: 0 18px;
+    padding: 7px;
+    position: relative;
+    top: 25px;
+}
+#signIn a {
+    margin-right: 40px;
+    background-color: rgb(67, 133, 243);
+    color: white;
+    padding: 10px 25px;
+    border-radius: 3px;
+    font-size: 0.85em;
+    text-decoration: none;
+    position: relative;
+    top: 30px;
 }
