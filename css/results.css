@@ -46,7 +46,7 @@ body {
     width: 100%;
     min-width: 1275px;
 }
-#icons img {
+/* #icons img {
     display: block;
     height: 1em;
     opacity: 60%;
@@ -58,6 +58,24 @@ body {
 #icons img:hover {
     background-color: lightgray;
     border-radius: 50%;
+}
+*/
+#appIcon {
+    position: relative;
+    height: 35px;
+    width: 35px;
+    text-align: center;
+    margin: 0 18px;
+    top: 20px;
+}
+#appIcon:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+}
+#appIcon img {
+    position: relative;
+    height: 1em;
+    top: 10px;
 }
 #signIn a {
     margin-right: 40px;
