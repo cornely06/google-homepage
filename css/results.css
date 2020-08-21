@@ -305,3 +305,26 @@ main {
     z-index: 1;
     color: rgb(223 225 229)
 }
+#templatesBar a {
+    margin-right: 10px;
+    text-decoration: none;
+}
+#templatesBar a:hover {
+    text-decoration: underline;
+}
+#related {
+    margin-top: 30px;
+    font-size: 1.5em;
+}
+#relatedLinks {
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 20px;
+}
+#relatedLinks a {
+    text-decoration: none;
+    font-weight: bold;
+}
+#relatedLinks a:hover {
+    text-decoration: underline;
+}
