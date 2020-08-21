@@ -194,3 +194,30 @@ main {
 .vidinfo span {
     font-weight: bold;
 }
+.alsoSearch {
+    width: 650px;
+    border: 1px rgb(223 225 229) solid;
+    border-radius: 7px;
+    position: relative;
+    margin-top: 10px;
+}
+.alsoSearch p {
+    margin-top: 10px;
+    margin-left: 15px;
+    font-weight: bold;
+    opacity: 70%;
+}
+#searchX {
+    position: absolute;
+    right: 15px;
+    top: 0px;
+}
+#searchLinks {
+  display: grid;
+  grid-template-columns: auto auto;
+  margin-left: 15px;
+  margin-bottom: 5px;
+}
+#searchLinks div {
+    margin-top: 2px;
+}
