@@ -277,3 +277,31 @@ main {
 .buttons:hover {
     background-color: #f3f3f3;
 }
+#imageBar {
+    overflow: scroll;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 10px;
+}
+#viewAll {
+    position: relative;
+    margin: 25px auto 0 auto;
+    width: 250px;
+    z-index: 2;
+    background-color: white;
+}
+#viewAllButton {
+    padding: 5px;
+}
+#viewAllButton p {
+    color: blue;
+}
+#viewAll a {
+    text-decoration: none;
+}
+#viewLine {
+    position: relative;
+    top: 41px;
+    z-index: 1;
+    color: rgb(223 225 229)
+}
