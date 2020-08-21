@@ -212,6 +212,9 @@ main {
     right: 15px;
     top: 0px;
 }
+#searchX:hover {
+    cursor: default;
+}
 #searchLinks {
   display: grid;
   grid-template-columns: auto auto;
@@ -220,4 +223,29 @@ main {
 }
 #searchLinks div {
     margin-top: 2px;
+}
+#searchLinks div a {
+    text-decoration: none;
+}
+#searchLinks div a:hover {
+    text-decoration: underline;
+}
+.alsoAsk {
+    width: 710px;
+    border: 1px rgb(223 225 229) solid;
+    border-radius: 7px;
+    position: relative;
+    margin-top: 20px;
+}
+.alsoAsk p {
+    padding: 15px;
+    border-bottom: 1px rgb(223 225 229) solid;
+    font-size: 1.2em;
+    color: black;
+}
+.alsoAsk a {
+    text-decoration: none;
+}
+.alsoAsk #pplAlso{
+    font-size: 2em;
 }
