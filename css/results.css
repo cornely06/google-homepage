@@ -144,15 +144,15 @@ main {
 .siteUrl {
     opacity: 100%;
 }
-.videosTitle img {
+.sectionTitle img {
     height: 1em;
 }
-.videosTitle {
+.sectionTitle {
     display: flex;
     margin-top: 20px;
     font-size: 1.5em;
 }
-#videos {
+.sections {
     margin: 0px 15px;
 }
 .videosContainer {
@@ -248,4 +248,32 @@ main {
 }
 .alsoAsk #pplAlso{
     font-size: 2em;
+}
+#imageSearch a {
+    display: flex;
+    text-decoration: none;
+}
+#imageSearch a:hover {
+    color: blue;
+}
+.buttonCol {
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    margin-top: 13px;
+}
+.buttonCol a {
+    text-decoration: none;
+}
+.buttons {
+    border: 1px rgb(223 225 229) solid;
+    margin: 0 5px;
+    padding: 5px;
+    border-radius: 20px;
+    text-align: center;
+}
+.buttons p {
+    color: black;
+}
+.buttons:hover {
+    background-color: #f3f3f3;
 }
