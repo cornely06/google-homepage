@@ -57,3 +57,35 @@ body {
     position: relative;
     top: 30px;
 }
+nav {
+    position: absolute;
+    display: grid;
+    grid-template-columns: 170px auto auto auto auto auto auto 65px auto auto 1fr;
+    width: 100%;
+}
+.navContainer {
+    position: relative;
+    top: 70px;
+    height: 35px;
+    padding: 10px;
+}
+.navButtons a {
+    text-decoration: none;
+    color: black;
+    opacity: 80%;
+}
+#all a {
+    color: blue;
+}
+#all a .navContainer {
+    border-bottom: 3px blue solid;
+}
+.navContainer {
+    display: flex;
+    align-items: center;
+    font-size: 0.75em;
+}
+.navContainer img {
+    height: 18px;
+    padding: 5px;
+}
