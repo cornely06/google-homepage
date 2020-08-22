@@ -328,3 +328,12 @@ main {
 #relatedLinks a:hover {
     text-decoration: underline;
 }
+#bottomBar {
+    display: grid;
+    grid-template-columns: repeat(4, auto) 1fr;
+    margin-bottom: 0px;
+    position: absolute;
+}
+.bottomButtons {
+    margin-right: 25px;
+}
