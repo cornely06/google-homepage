@@ -331,9 +331,16 @@ main {
 #bottomBar {
     display: grid;
     grid-template-columns: repeat(4, auto) 1fr;
-    margin-bottom: 0px;
-    position: absolute;
+    margin-top: 50px;
 }
 .bottomButtons {
     margin-right: 25px;
+    color: black;
+    opacity: 70%;
+}
+#bottomBar a {
+    text-decoration: none;
+}
+#bottomBar a:hover .bottomButtons {
+    opacity: 100%;
 }
